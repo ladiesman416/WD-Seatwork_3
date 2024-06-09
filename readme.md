@@ -6,21 +6,23 @@
 <div align="center">
   <a href="https://github.com/zyx-0314/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/layout.png" alt="webpage_logo" width="100" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">Headers and Footers Display Website
+</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+ For Seatwork 3: Headers and Footers Display Website
+, I created a Header and Footer webpage with icons and added animations to it using HTML and CSS.
 </div>
 
 <br />
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=ladiesman416/WD-Seatwork_3)
 
 ---
 
@@ -59,11 +61,11 @@
 <!-- The following are just sample -->
 Description of the project in details.
 
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+### What is the Project?
+The project is to create a Header and Footer Display Website using pure HTML and CSS. This website will showcase various designs of headers and footers, including both static and animated versions.
+
+### What is the purpose of the Project?
+The project aims to demonstrate proficiency in HTML and CSS, including the use of animations, and to provide a comprehensive overview of design variations for headers and footers.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
@@ -75,8 +77,10 @@ Guiding Question:
 ### Technology
 <!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+- Structure the content of the website.
+
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
+- Style the contents of the website.
 
 ## Rules, Practices and Principles
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
