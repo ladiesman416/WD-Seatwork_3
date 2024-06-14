@@ -70,9 +70,9 @@ The project aims to demonstrate proficiency in HTML and CSS, including the use o
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- Landing Page
+- Header Gallery
+- Footer Galery
 
 ### Technology
 <!-- TODO: List of Technology Used -->
@@ -120,5 +120,7 @@ WD-ProjectName
 
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
-|-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+|Flex|reference off flexbox positioning|https://flexbox.malven.co/|
+|Header Design|Reference of Header Design|https://www.awwwards.com/websites/header-design/|
+|HTML & CSS Tutorial|References of HTML && CSS codes|https://www.w3schools.com/css/default.asp|
+

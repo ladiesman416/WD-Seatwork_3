@@ -1,0 +1,154 @@
+
+@font-face {
+  font-family: 'soloist';
+  src: url(../fonts/starjout/Soloist-Z6M8.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'NewFontFamily2';
+  src: url(../fonts/starjout/Starjedi.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Star Jedi1';
+  src: url(../fonts/starjout/Starjout.ttf) format('Truetype');
+}
+@font-face {
+  font-family: 'solo';
+  src: url(../fonts/starjout/Soloist-Z6M8.ttf) format('Truetype');
+}
+
+body {
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  background: url("../img/star-wars-bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+
+.container {
+    position: Fixed;
+    left: 20px;
+    top: 40%;
+    transform: translateY(-50%);
+    text-align: left;
+    background-color: transparent;
+    padding: 20px;
+}
+
+
+.title {
+  margin: 0;
+  font-size: 40px;
+  color: #157fe2;
+  font-family: 'soloist';
+  text-shadow: 2px 2px #a02323;
+}
+
+.subtitle {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  color:#ff0000;
+  font-family: 'solo' ;
+  font-size: 22px;
+  text-shadow: 2px 2px #ffffff;
+}
+
+.buttons-container {
+  margin-top: auto;
+  padding: auto;
+}
+
+#buttons {
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.button {
+  text-decoration:none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  background-color: #031875;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  font-family: 'Star Jedi1';
+  font: size 2.5em;
+  box-shadow: inset 2px 0 0 #00d0ff, 0 5px 0 #00c8ff;
+}
+
+.button:hover {
+  background-color: #642727;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 2px 0 0 #ff0000, 0 5px 0 #ff0000;
+
+
+}
+
+.logo-container {
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+}
+
+.logo {
+  width: 50px;
+  height: auto;
+}
+
+
+.sub-logo1 {
+  position: absolute;
+  bottom: 60px;
+  right: 0px;
+  width: 0;
+  height: auto;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.sub-logo2 {
+  position: absolute;
+  bottom: 100px;
+  right: 0px;
+  width: 0;
+  height: auto;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+
+.logo-container:hover .sub-logo1 {
+  width: 30px;
+  opacity: 1;
+}
+.logo-container:hover .sub-logo2 {
+  width: 30px;
+  opacity: 1;
+}
+.deathstar-icon {
+  width: 50px;
+  height: 50px;
+  transition: transform 0.5s ease;
+}
+
+.deathstar-icon:hover {
+  transform: rotate(360deg);
+}
+
+.starwars-logo{
+  max-width: 100%;
+  height: auto;
+}
+
+.starwars {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  width: 100px;
+  height: auto;
+}
